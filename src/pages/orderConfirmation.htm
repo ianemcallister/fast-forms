@@ -1,0 +1,44 @@
+<h3>Step 1: Order Confirmation</h3>
+
+  <section class="order-review">
+    <h3>Your Order</h3>
+
+    <div ng-repeat="item in shoppingCart.list">
+      <div class="row">
+        <div class="col-md-12">
+          <shopping-cart item-name="" item-quantity="" item-price="" item-total="" gross-total=""></shopping-cart>
+        </div>
+      </div>
+    </div>
+    <!--
+    <table class="your-order">
+      <tr class="headings">
+        <td>Product</td>
+        <td>Quantity</td>
+        <td>Price</td>
+        <td>Total</td>
+      </tr>
+      <tr>
+        <td>Game Console 2015</td>
+        <td>1</td>
+        <td>$500.00</td>
+        <td>$500.00</td>
+      </tr>
+      <tr>
+        <td>Platformer Bros 3D</td>
+        <td>1</td>
+        <td>$50.00</td>
+        <td>$50.00</td>
+      </tr>
+      <tr class="total">
+        <td>Total</td>
+        <td>$550.00</td>
+      </tr>
+    </table>
+    -->
+
+    <label class="check-correct">Is your order correct?
+      <input type="checkbox">
+    </label>
+    <input id="submit" type="submit">
+  </section>
